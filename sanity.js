@@ -16,7 +16,7 @@ export const sanityClient = createClient(config);
 
 //set up helper function for generating Image URLs with only the asset reference data in your document
 
-export const ulrFor = (source) => createImgUrlBuilder(config).image(source);
+export const urlFor = (source) => createImgUrlBuilder(config).image(source);
 
 // Helper function for using the current logged in user account
 export const useCurrentUser = createCurrentUserHook(config);
